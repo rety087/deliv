@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="36dp"
+        android:text=""
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="15dp"
+        android:text=""
+        android:textAlignment="textStart"
+
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="15dp"
+        android:text=""
+        android:textAlignment="textStart"
+
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"
+
+        android:text="Информация о заказе:" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:textSize="33dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Заказы" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:text=""
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="36dp"
+        android:text="Номер:"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Имя:"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Адрес:"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView10"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Время:"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_height="wrap_content"
+        android:text="Принять заказ" />
+
+    <Button
+        android:id="@+id/button4"
+
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="225dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Заказ передан" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button4"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:onClick="onClickHis"
+        android:text="История заказов"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button4"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="15dp"
+        android:onClick="onClickLast"
+        android:text="Завершение смены"
+        android:textSize="11sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <TextView
+        android:id="@+id/textlog"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="Логин" />
+
+
+    <EditText
+        android:id="@+id/editlog"
+        android:layout_below="@+id/textlog"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Введите логин:"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textpass"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/editlog"
+        android:layout_height="wrap_content"
+        android:text="Пароль" />
+
+    <EditText
+        android:id="@+id/editpass"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textpass"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Введите пороль:"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editpass"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick"
+        android:text="ВОЙТИ" />
+</RelativeLayout>

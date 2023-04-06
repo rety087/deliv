@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <TextView
+        android:id="@+id/dt"
+        android:layout_width="181dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:text="Время начала :" />
+
+    <EditText
+        android:id="@+id/ed"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/dt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <TextView
+        android:id="@+id/dt1"
+        android:layout_width="181dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/ed"
+        android:layout_marginTop="20dp"
+
+        android:layout_centerHorizontal="true"
+        android:text="Введите лигин :" />
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/dt1"
+        android:inputType="textPersonName"
+        android:hint="логин"
+        />
+    <TextView
+        android:id="@+id/dt2"
+        android:layout_width="181dp"
+        android:layout_height="45dp"
+        android:text="Статус :"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ed1"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/dt2"
+        android:inputType="textPersonName"
+        android:text="Приступил к работе"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed2"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Начать смену" />
+
+</RelativeLayout>

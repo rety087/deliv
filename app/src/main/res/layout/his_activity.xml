@@ -1,0 +1,56 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:layout_marginStart="165dp"
+            android:layout_marginTop="10dp"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="95dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/dadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:layout_marginStart="100dp"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="15dp"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="149dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Информация о заказе:" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Время:" />
+
+    </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
